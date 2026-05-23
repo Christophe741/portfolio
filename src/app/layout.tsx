@@ -1,23 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
 
 export const metadata: Metadata = {
-  title: "Christophe Winkel — Développeur Full-Stack",
-  description:
-    "Développeur Full-Stack en Lorraine. Je conçois et développe des applications web modernes avec React, Next.js et Node.js — du prototype au produit.",
+  title: "Christophe Winkel — MISSION CONTROL",
+  description: "Développeur Full-Stack & Builder — React, Next.js, Node.js",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fr">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr" className={jetbrainsMono.variable}>
+      <body>{children}</body>
     </html>
   );
 }

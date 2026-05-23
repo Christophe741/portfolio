@@ -1,7 +1,25 @@
-export default function HomePage() {
+import Stars from "@/components/Stars";
+
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">Portfolio - En cours</h1>
-    </div>
+    <>
+      <Stars />
+      <main
+        style={{
+          position: "relative",
+          zIndex: 1,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          minHeight: "100vh",
+        }}
+      >
+        <p
+          style={{ color: "var(--teal)", fontFamily: "var(--font-jetbrains)" }}
+        >
+          portfolio · en cours
+        </p>
+      </main>
+    </>
   );
 }
