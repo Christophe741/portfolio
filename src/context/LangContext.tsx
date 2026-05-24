@@ -21,11 +21,23 @@ const DICT: Record<Lang, Record<string, string>> = {
     op: "OPÉRATEUR",
     frame: "FRAME",
     online: "EN LIGNE",
+    "h1-1": "Développeur",
+    "h1-2": "Full-Stack",
+    "h1-3": "& builder.",
+    "hero-sub1": "Je conçois et développe des applications web modernes avec React, Next.js et Node.js — du prototype au produit final.",
+    "cta-1": "voir les missions",
+    "cta-2": "établir un contact",
   },
   en: {
     op: "OPERATOR",
     frame: "FRAME",
     online: "ONLINE",
+    "h1-1": "Full-Stack",
+    "h1-2": "developer",
+    "h1-3": "& maker.",
+    "hero-sub1": "I design and ship modern web applications with React, Next.js and Node.js — from prototype to product.",
+    "cta-1": "view missions",
+    "cta-2": "open channel",
   },
 };
 
