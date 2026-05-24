@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
+import { LangProvider } from "@/context/LangContext";
 import "./globals.css";
 
 const jetbrainsMono = JetBrains_Mono({
@@ -18,7 +19,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="fr" className={jetbrainsMono.variable}>
-      <body>{children}</body>
+      <body suppressHydrationWarning>
+        <LangProvider>{children}</LangProvider>
+      </body>
     </html>
   );
 }

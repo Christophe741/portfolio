@@ -2,7 +2,14 @@
 
 :root {
   --bg: #050913;
+  --ink: #e6ecf5;
+  --ink-dim: #8a9bbd;
+  --ink-mute: #4a5a7a;
   --teal: #5eead4;
+  --teal-soft: rgba(94, 234, 212, 0.12);
+  --teal-line: rgba(94, 234, 212, 0.35);
+  --line: #1d2b4d;
+  --green: #86efac;
 }
 
 *,
@@ -32,6 +39,34 @@ button {
   background: transparent;
   border: 0;
   cursor: pointer;
+}
+
+html,
+body {
+  color: var(--ink);
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(94, 234, 212, 0.25);
+  color: #fff;
+}
+
+@keyframes pls {
+  50% { opacity: 0.35; }
+}
+
+.shell {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 18px 24px 60px;
 }
 
 body::before {
