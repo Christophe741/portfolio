@@ -6,6 +6,7 @@
   --ink-dim: #8a9bbd;
   --ink-mute: #4a5a7a;
   --teal: #5eead4;
+  --teal-2: #2dd4bf;
   --teal-soft: rgba(94, 234, 212, 0.12);
   --teal-line: rgba(94, 234, 212, 0.35);
   --line: #1d2b4d;
@@ -153,15 +154,41 @@ body {
   gap: 16px;
 }
 
-.col-hero { grid-column: span 8; display: flex; flex-direction: column; }
-.col-tel  { grid-column: span 4; display: flex; flex-direction: column; }
+.col-hero {
+  grid-column: span 8;
+  display: flex;
+  flex-direction: column;
+}
+.col-tel {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+}
+.col-kpi {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+}
 
 .col-hero > .hud,
-.col-tel  > .hud { flex: 1; }
+.col-tel > .hud {
+  flex: 1;
+}
 
 @media (max-width: 1100px) {
   .col-hero,
-  .col-tel { grid-column: span 12; }
+  .col-tel {
+    grid-column: span 12;
+  }
+  .col-kpi {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 600px) {
+  .col-kpi {
+    grid-column: span 12;
+  }
 }
 
 body::before {
