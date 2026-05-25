@@ -58,9 +58,6 @@ Tokens defined in `globals.css`:
 | Token          | Value                        | Usage                        |
 | -------------- | ---------------------------- | ---------------------------- |
 | `--bg`         | `#050913`                    | Main background              |
-| `--panel`      | `#0a1228`                    | Panel background             |
-| `--panel-2`    | `#0c142a`                    | Alternate panel background   |
-| `--hud`        | `#0e1a36`                    | HUD background               |
 | `--teal`       | `#5eead4`                    | Primary accent               |
 | `--teal-2`     | `#2dd4bf`                    | Secondary accent             |
 | `--teal-soft`  | `rgba(94,234,212,.12)`       | Subtle accent fill           |
