@@ -44,6 +44,12 @@ const DICT: Record<Lang, Record<string, string>> = {
     "kpi-3-d": "ouvert aux opportunités",
     "kpi-4": "délai réponse",
     "kpi-4-d": "email · github",
+    "stack-title": "stack · instrumentation",
+    "cat-front": "frontend",
+    "cat-back": "backend",
+    "cat-data": "données",
+    "cat-infra": "infra · devops",
+    "cat-lang": "langages",
   },
   en: {
     op: "OPERATOR",
@@ -72,6 +78,12 @@ const DICT: Record<Lang, Record<string, string>> = {
     "kpi-3-d": "open to opportunities",
     "kpi-4": "response time",
     "kpi-4-d": "email · github",
+    "stack-title": "stack · instrumentation",
+    "cat-front": "frontend",
+    "cat-back": "backend",
+    "cat-data": "data",
+    "cat-infra": "infra · devops",
+    "cat-lang": "languages",
   },
 };
 
