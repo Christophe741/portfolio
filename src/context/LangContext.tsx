@@ -85,13 +85,15 @@ const DICT: Record<Lang, Record<string, string>> = {
     "missions-title": "missions actives",
     "missions-title-h": "missions",
     "missions-sub": "en orbite",
-    "m-role": "// solution digitale · concessionnaires · 2026 — full-stack",
+    "m-role": "// e-commerce B2C · vente & location LDD · 2026 — full-stack",
     "m-desc":
-      "Plateforme intuitive pour concessionnaires automobiles. Parcours complet — recherche de véhicules d'occasion, gestion des comptes, traitement numérique des documents administratifs.",
-    "m-foot": "// type · SaaS B2B",
-    "m-foot-s": "// SaaS B2B",
+      "Plateforme e-commerce B2C de vente et location longue durée de véhicules d'occasion. Application client et back-office métier. Développé dans le cadre du Bachelor Développeur d'Application Web.",
+    "m-foot": "// type · e-commerce B2C",
+    "m-foot-s": "// e-commerce B2C",
     "m-link": "voir_le_cas() →",
     "m-link-s": "voir →",
+    "m-desc-s":
+      "Plateforme e-commerce B2C · vente et location LDD de véhicules d'occasion. App client + back-office métier. Bachelor Développeur d'Application Web.",
     "e-role":
       "// covoiturage écologique · projet de formation · 2025 — full-stack + devops",
     "e-role-s":
@@ -198,13 +200,15 @@ const DICT: Record<Lang, Record<string, string>> = {
     "missions-title": "active missions",
     "missions-title-h": "missions",
     "missions-sub": "in orbit",
-    "m-role": "// digital solution · dealerships · 2026 — full-stack",
+    "m-role": "// B2C e-commerce · sale & long-term rental · 2026 — full-stack",
     "m-desc":
-      "Intuitive platform for car dealerships. Complete journey — used-vehicle search, account management, digital document processing.",
-    "m-foot": "// type · B2B SaaS",
-    "m-foot-s": "// B2B SaaS",
+      "B2C e-commerce platform for the sale and long-term rental of used vehicles. Customer-facing app and business back-office. Built as part of the Bachelor Web Application Developer programme.",
+    "m-foot": "// type · B2C e-commerce",
+    "m-foot-s": "// B2C e-commerce",
     "m-link": "open_case_study() →",
     "m-link-s": "open →",
+    "m-desc-s":
+      "B2C e-commerce platform · sale & long-term rental of used vehicles. Customer app + back-office. Bachelor Web Application Developer.",
     "e-role":
       "// eco-friendly carpooling · training project · 2025 — full-stack + devops",
     "e-role-s":

@@ -377,7 +377,7 @@ function MissionsScreen() {
 
       <MissionCard
         num="MISSION · 01" status="● PRODUCTION" title="M-Motors"
-        roleKey="m-role" descKey="m-desc"
+        roleKey="m-role" descKey="m-desc-s"
         chips={[["Next.js","t"],["TypeScript","t"],["Prisma","a"],["PostgreSQL","b"],["Vercel","c"]]}
         footKey="m-foot-s" linkKey="m-link-s" link="https://github.com/Christophe741/m-motors"
       />
