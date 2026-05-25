@@ -55,6 +55,16 @@ const DICT: Record<Lang, Record<string, string>> = {
     "comm-loc-val": "France · remote-friendly · CET",
     "comp-lbl": "canal ouvert · transmission acceptée",
     "comp-prompt": "« j'ai une idée à transformer en produit… »",
+    // ── missions ──
+    "missions-title": "missions actives",
+    "m-role": "// solution digitale · concessionnaires · 2026 — full-stack",
+    "m-desc": "Plateforme intuitive pour concessionnaires automobiles. Parcours complet — recherche de véhicules d'occasion, gestion des comptes, traitement numérique des documents administratifs.",
+    "m-foot": "// type · SaaS B2B",
+    "m-link": "voir_le_cas() →",
+    "e-role": "// covoiturage écologique · projet de formation · 2025 — full-stack + devops",
+    "e-desc": "Plateforme web de covoiturage à faible empreinte carbone, développée dans le cadre de la formation Développeur Web & Web Mobile. Déploiement conteneurisé, architecture multi-base.",
+    "e-foot": "// type · web app + devops",
+    "e-link": "voir_le_cas() →",
   },
   en: {
     op: "OPERATOR",
@@ -94,6 +104,16 @@ const DICT: Record<Lang, Record<string, string>> = {
     "comm-loc-val": "France · remote-friendly · CET",
     "comp-lbl": "channel open · transmissions accepted",
     "comp-prompt": '"I have an idea to turn into a product…"',
+    // ── missions ──
+    "missions-title": "active missions",
+    "m-role": "// digital solution · dealerships · 2026 — full-stack",
+    "m-desc": "Intuitive platform for car dealerships. Complete journey — used-vehicle search, account management, digital document processing.",
+    "m-foot": "// type · B2B SaaS",
+    "m-link": "open_case_study() →",
+    "e-role": "// eco-friendly carpooling · training project · 2025 — full-stack + devops",
+    "e-desc": "Low-carbon carpooling web platform, developed during the Web & Mobile Developer training. Containerized deployment, multi-database architecture.",
+    "e-foot": "// type · web app + devops",
+    "e-link": "open_case_study() →",
   },
 };
 

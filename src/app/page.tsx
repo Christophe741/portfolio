@@ -7,6 +7,7 @@ import Telemetry from "@/components/Telemetry";
 import KpiPanel, { KPIs } from "@/components/KpiPanel";
 import Stack from "@/components/Stack";
 import Comms from "@/components/Comms";
+import Missions from "@/components/Missions";
 
 export default function Page() {
   return (
@@ -32,6 +33,9 @@ export default function Page() {
             </div>
             <div className="col-comms">
               <Comms />
+            </div>
+            <div className="col-full">
+              <Missions />
             </div>
           </div>
         </main>
