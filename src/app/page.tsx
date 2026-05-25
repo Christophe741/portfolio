@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Telemetry from "@/components/Telemetry";
 import KpiPanel, { KPIs } from "@/components/KpiPanel";
 import Stack from "@/components/Stack";
+import Comms from "@/components/Comms";
 
 export default function Page() {
   return (
@@ -28,6 +29,9 @@ export default function Page() {
             ))}
             <div className="col-stack">
               <Stack />
+            </div>
+            <div className="col-comms">
+              <Comms />
             </div>
           </div>
         </main>

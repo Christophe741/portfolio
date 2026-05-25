@@ -50,6 +50,11 @@ const DICT: Record<Lang, Record<string, string>> = {
     "cat-data": "données",
     "cat-infra": "infra · devops",
     "cat-lang": "langages",
+    "comms-title": "canaux de communication",
+    "comm-loc-lbl": "localisation",
+    "comm-loc-val": "France · remote-friendly · CET",
+    "comp-lbl": "canal ouvert · transmission acceptée",
+    "comp-prompt": "« j'ai une idée à transformer en produit… »",
   },
   en: {
     op: "OPERATOR",
@@ -84,6 +89,11 @@ const DICT: Record<Lang, Record<string, string>> = {
     "cat-data": "data",
     "cat-infra": "infra · devops",
     "cat-lang": "languages",
+    "comms-title": "communication channels",
+    "comm-loc-lbl": "location",
+    "comm-loc-val": "France · remote-friendly · CET",
+    "comp-lbl": "channel open · transmissions accepted",
+    "comp-prompt": '"I have an idea to turn into a product…"',
   },
 };
 
