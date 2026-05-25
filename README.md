@@ -2,7 +2,7 @@
 
 ![Banner](https://capsule-render.vercel.app/api?type=soft&color=0:0a0e1a,100:5eead4&height=220&section=header&text=CHRISTOPHE%20WINKEL&fontSize=60&fontColor=ffffff&fontAlignY=40&desc=Mission%20Control%20%C2%B7%20Portfolio&descSize=18&descAlignY=65&animation=fadeIn)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1500&color=5eead4&center=true&vCenter=true&width=600&height=50&lines=D%C3%A9veloppeur+Full-Stack;Next.js+%C2%B7+React+%C2%B7+TypeScript;Du+prototype+au+produit;NODE+%C2%B7+CWK-01+%C2%B7+Operational)](https://christophewinkel.dev)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1500&color=5eead4&center=true&vCenter=true&width=600&height=50&lines=Full-Stack+Developer;Next.js+%C2%B7+React+%C2%B7+TypeScript;From+prototype+to+product;NODE+%C2%B7+CWK-01+%C2%B7+Operational)](https://christophewinkel.dev)
 
 <br />
 
@@ -17,32 +17,32 @@ src/
 ├── app/
 │   ├── layout.tsx       # Fonts, metadata
 │   ├── page.tsx         # Desktop + mobile layout toggle
-│   └── globals.css      # Design system (tokens, grid, composants HUD)
+│   └── globals.css      # Design system (tokens, grid, HUD components)
 ├── components/
-│   ├── HudPanel.tsx     # Conteneur HUD + coins décoratifs
-│   ├── TopBar.tsx       # Barre de navigation + switcher de langue
-│   ├── Hero.tsx         # Présentation principale
-│   ├── Telemetry.tsx    # Panel infos clés
-│   ├── KpiPanel.tsx     # Cartes KPI (4 métriques)
-│   ├── Stack.tsx        # Technologies maîtrisées
-│   ├── Comms.tsx        # Canaux de contact
-│   ├── Missions.tsx     # Projets livrés
-│   ├── LogStream.tsx    # Flux d'activité en temps réel
-│   ├── Stars.tsx        # Fond étoilé animé
+│   ├── HudPanel.tsx     # HUD container + decorative corners
+│   ├── TopBar.tsx       # Navigation bar + language switcher
+│   ├── Hero.tsx         # Main introduction
+│   ├── Telemetry.tsx    # Key info panel
+│   ├── KpiPanel.tsx     # KPI cards (4 metrics)
+│   ├── Stack.tsx        # Tech stack
+│   ├── Comms.tsx        # Contact channels
+│   ├── Missions.tsx     # Shipped projects
+│   ├── LogStream.tsx    # Live activity feed
+│   ├── Stars.tsx        # Animated starfield background
 │   └── mobile/
-│       └── MobileLayout.tsx  # Layout mobile (tabs + 4 écrans)
+│       └── MobileLayout.tsx  # Mobile layout (tabs + 4 screens)
 └── context/
-    └── LangContext.tsx  # Internationalisation FR/EN
+    └── LangContext.tsx  # FR/EN internationalisation
 ```
 
-## Lancer en local
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Ouvre [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000).
 
 ## Build
 
@@ -53,30 +53,30 @@ npm start
 
 ## Design system
 
-Tokens définis dans `globals.css` :
+Tokens defined in `globals.css`:
 
-| Token          | Valeur                       | Usage                        |
+| Token          | Value                        | Usage                        |
 | -------------- | ---------------------------- | ---------------------------- |
-| `--bg`         | `#050913`                    | Fond principal               |
-| `--panel`      | `#0a1228`                    | Fond des panels              |
-| `--panel-2`    | `#0c142a`                    | Fond alternatif              |
-| `--hud`        | `#0e1a36`                    | Fond HUD                     |
-| `--teal`       | `#5eead4`                    | Accent principal             |
-| `--teal-2`     | `#2dd4bf`                    | Accent secondaire            |
-| `--teal-soft`  | `rgba(94,234,212,.12)`       | Fond accent subtil           |
-| `--teal-line`  | `rgba(94,234,212,.35)`       | Bordures accent              |
-| `--ink`        | `#e6ecf5`                    | Texte principal              |
-| `--ink-dim`    | `#8a9bbd`                    | Texte secondaire             |
-| `--ink-mute`   | `#4a5a7a`                    | Texte atténué                |
-| `--line`       | `#1d2b4d`                    | Bordures                     |
-| `--line-soft`  | `#152040`                    | Séparateurs                  |
-| `--amber`      | `#fcd34d`                    | Avertissements               |
-| `--indigo`     | `#a5b4fc`                    | Backend / accent violet      |
-| `--rose`       | `#fda4af`                    | Data / accent rose           |
-| `--green`      | `#86efac`                    | Statuts OK                   |
+| `--bg`         | `#050913`                    | Main background              |
+| `--panel`      | `#0a1228`                    | Panel background             |
+| `--panel-2`    | `#0c142a`                    | Alternate panel background   |
+| `--hud`        | `#0e1a36`                    | HUD background               |
+| `--teal`       | `#5eead4`                    | Primary accent               |
+| `--teal-2`     | `#2dd4bf`                    | Secondary accent             |
+| `--teal-soft`  | `rgba(94,234,212,.12)`       | Subtle accent fill           |
+| `--teal-line`  | `rgba(94,234,212,.35)`       | Accent borders               |
+| `--ink`        | `#e6ecf5`                    | Primary text                 |
+| `--ink-dim`    | `#8a9bbd`                    | Secondary text               |
+| `--ink-mute`   | `#4a5a7a`                    | Muted text                   |
+| `--line`       | `#1d2b4d`                    | Borders                      |
+| `--line-soft`  | `#152040`                    | Dividers                     |
+| `--amber`      | `#fcd34d`                    | Warnings                     |
+| `--indigo`     | `#a5b4fc`                    | Backend / purple accent      |
+| `--rose`       | `#fda4af`                    | Data / pink accent           |
+| `--green`      | `#86efac`                    | OK statuses                  |
 
-La classe `.hud` applique le style de panneau (fond semi-transparent, bordure, coins teal).
+The `.hud` class applies the panel style (semi-transparent background, border, teal corners).
 
-## Déploiement
+## Deployment
 
-Déployé sur Vercel. Chaque push sur `main` déclenche un build automatique.
+Deployed on Vercel. Every push to `main` triggers an automatic build.
