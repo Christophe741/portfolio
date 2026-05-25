@@ -65,6 +65,13 @@ const DICT: Record<Lang, Record<string, string>> = {
     "e-desc": "Plateforme web de covoiturage à faible empreinte carbone, développée dans le cadre de la formation Développeur Web & Web Mobile. Déploiement conteneurisé, architecture multi-base.",
     "e-foot": "// type · web app + devops",
     "e-link": "voir_le_cas() →",
+    // ── logs ──
+    "log-title": "flux d'activité · stream",
+    "log-1": "build <b>m-motors</b> · déployé sur <b>vercel</b> · 0 erreur",
+    "log-2": "refactor · <b>flow d'auth</b> · -180 LOC · +confiance",
+    "log-3": "container <b>ecoride</b> · lancé sur <b>caprover</b> · healthy",
+    "log-4": "pr ouverte · <b>améliorer l'a11y sur /search</b> · prête à review",
+    "log-5": "niveau caféine bas · <b>relance en cours</b>",
   },
   en: {
     op: "OPERATOR",
@@ -114,6 +121,13 @@ const DICT: Record<Lang, Record<string, string>> = {
     "e-desc": "Low-carbon carpooling web platform, developed during the Web & Mobile Developer training. Containerized deployment, multi-database architecture.",
     "e-foot": "// type · web app + devops",
     "e-link": "open_case_study() →",
+    // ── logs ──
+    "log-title": "activity stream",
+    "log-1": "build <b>m-motors</b> · deployed to <b>vercel</b> · 0 errors",
+    "log-2": "refactor · <b>auth flow</b> · -180 LOC · +confidence",
+    "log-3": "container <b>ecoride</b> · started on <b>caprover</b> · healthy",
+    "log-4": "opened pr · <b>improve a11y on /search</b> · ready for review",
+    "log-5": "caffeine level low · <b>brewing more</b>",
   },
 };
 

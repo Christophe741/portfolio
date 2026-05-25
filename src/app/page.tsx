@@ -8,6 +8,7 @@ import KpiPanel, { KPIs } from "@/components/KpiPanel";
 import Stack from "@/components/Stack";
 import Comms from "@/components/Comms";
 import Missions from "@/components/Missions";
+import LogStream from "@/components/LogStream";
 
 export default function Page() {
   return (
@@ -36,6 +37,9 @@ export default function Page() {
             </div>
             <div className="col-full">
               <Missions />
+            </div>
+            <div className="col-full">
+              <LogStream />
             </div>
           </div>
         </main>
