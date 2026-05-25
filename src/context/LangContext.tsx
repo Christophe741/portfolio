@@ -72,6 +72,7 @@ const DICT: Record<Lang, Record<string, string>> = {
     "log-3": "container <b>ecoride</b> · lancé sur <b>caprover</b> · healthy",
     "log-4": "pr ouverte · <b>améliorer l'a11y sur /search</b> · prête à review",
     "log-5": "niveau caféine bas · <b>relance en cours</b>",
+    "foot-2": "build · stable",
   },
   en: {
     op: "OPERATOR",
@@ -128,6 +129,7 @@ const DICT: Record<Lang, Record<string, string>> = {
     "log-3": "container <b>ecoride</b> · started on <b>caprover</b> · healthy",
     "log-4": "opened pr · <b>improve a11y on /search</b> · ready for review",
     "log-5": "caffeine level low · <b>brewing more</b>",
+    "foot-2": "build · stable",
   },
 };
 

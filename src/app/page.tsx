@@ -43,6 +43,20 @@ export default function Page() {
             </div>
           </div>
         </main>
+        <footer className="botbar">
+          <div className="botbar-l">
+            <span>© 2026 · CHRISTOPHE WINKEL</span>
+            <span>
+              {"// "}you are stardust ·{" "}
+              <span style={{ color: "var(--teal)" }}>running on purpose</span>
+            </span>
+          </div>
+          <div className="botbar-r">
+            <span>build · stable</span>
+            <span>v1.0.0</span>
+            <span style={{ color: "var(--teal)" }}>cwk-01</span>
+          </div>
+        </footer>
       </div>
     </>
   );

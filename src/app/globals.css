@@ -184,6 +184,25 @@ body {
   .col-kpi { grid-column: span 12; }
 }
 
+/* footer */
+.botbar {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--ink-mute);
+  letter-spacing: .06em;
+  padding: 0 6px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.botbar-l,
+.botbar-r {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
 body::before {
   content: "";
   position: fixed;
