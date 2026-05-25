@@ -70,7 +70,7 @@ Tokens defined in `globals.css`:
 | `--ink-mute`   | `#4a5a7a`                    | Muted text                   |
 | `--line`       | `#1d2b4d`                    | Borders                      |
 | `--line-soft`  | `#152040`                    | Dividers                     |
-| `--amber`      | `#fcd34d`                    | Warnings                     |
+| `--amber`      | `#fcd34d`                    | Infra chips / WRN logs / in-progress status |
 | `--indigo`     | `#a5b4fc`                    | Backend / purple accent      |
 | `--rose`       | `#fda4af`                    | Data / pink accent           |
 | `--green`      | `#86efac`                    | OK statuses                  |
