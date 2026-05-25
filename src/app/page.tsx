@@ -1,6 +1,6 @@
 "use client";
 
-import { LangProvider, useLang } from "@/context/LangContext";
+import { useLang } from "@/context/LangContext";
 import Stars from "@/components/Stars";
 import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
@@ -14,7 +14,7 @@ import MobileLayout from "@/components/mobile/MobileLayout";
 
 export default function Page() {
   return (
-    <LangProvider>
+    <>
       <Stars />
       {/* Desktop — hidden under 768px */}
       <div className="desktop-layout">
@@ -24,7 +24,7 @@ export default function Page() {
       <div className="mobile-layout">
         <MobileLayout />
       </div>
-    </LangProvider>
+    </>
   );
 }
 
