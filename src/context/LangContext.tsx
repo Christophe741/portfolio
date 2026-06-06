@@ -85,7 +85,7 @@ const DICT: Record<Lang, Record<string, string>> = {
     "missions-title": "missions actives",
     "missions-title-h": "missions",
     "missions-sub": "en orbite",
-    "m-role": "// e-commerce B2C · vente & location LDD · 2026 — full-stack",
+    "m-role": "// e-commerce B2C · vente & location LLD · 2026 — full-stack",
     "m-desc":
       "Plateforme e-commerce B2C de vente et location longue durée de véhicules d'occasion. Application client et back-office métier. Développé dans le cadre du Bachelor Développeur d'Application Web.",
     "m-foot": "// type · e-commerce B2C",
@@ -93,7 +93,7 @@ const DICT: Record<Lang, Record<string, string>> = {
     "m-link": "voir_le_cas() →",
     "m-link-s": "voir →",
     "m-desc-s":
-      "Plateforme e-commerce B2C · vente et location LDD de véhicules d'occasion. App client + back-office métier. Bachelor Développeur d'Application Web.",
+      "Plateforme e-commerce B2C · vente et location LLD de véhicules d'occasion. App client + back-office métier. Bachelor Développeur d'Application Web.",
     "e-role":
       "// covoiturage écologique · projet de formation · 2025 — full-stack + devops",
     "e-role-s":
